@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+form {font-family: helvetica, arial; margin-bottom: 20px; font-weight: 100; text-align: center; color: #313131;}
+a {font-family: helvetica, arial; text-decoration: none; color: #313131; margin-left: 55%;}
+.box {width: 500px; background: #EAEAEA; border: 1px solid black;}
+body {font-family: helvetica, arial; text-decoration: none; color: #313131; text-align: center;}
+@media screen and (max-width: 500px) {
+  .box{
+    width: 300px;
+  }
+  a {margin-left: 40%;}
+}
+
+#lout {height: 2em; width: 10em;}
+#iffail {margin-left: auto;}
